@@ -1,0 +1,593 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+p {
+  color: #212b31;
+}
+.header {
+  display: flex;
+  padding-top: 20px;
+  
+}
+/* header */
+.logoBlock {
+  padding-left: 30px;
+  padding-right: 200px;
+  display: flex;
+}
+
+.logoText {
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-top: 7px;
+}
+.ulBlock ul {
+  list-style: none;
+  text-decoration: none;
+  color: #72787d;
+  padding-right: 30px;
+}
+.ulBlock ul li a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #212b31;
+  font-weight: normal;
+}
+.ulBlock ul li a:hover {
+  text-decoration: none;
+  color: blue;
+}
+.ulBlock {
+  display: flex;
+}
+.ctaBtn {
+  display: inline-block;
+  padding: 9px 20px;
+  background-color: #212b31;
+  color: #fff;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.ctaBtn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.h1Header {
+  margin-top: 74px;
+}
+
+.h1Buttons {
+  display: flex;
+  margin-top: 43px;
+}
+.demoOrder {
+  padding: 13px 25px;
+  border: 1px solid #327e91;
+  margin-right: 41px;
+  text-decoration: none;
+  color: #000;
+}
+.h1More {
+  padding: 13px 25px;
+  border: 1px solid #327e91;
+  text-decoration: none;
+  color: #000;
+}
+.demoOrder:hover {
+  background: #212b31;
+  color: #fff;
+  text-decoration: none;
+}
+.h1More:hover {
+  background: #212b31;
+  color: #fff;
+  text-decoration: none;
+}
+.city {
+  padding-top: 88px;
+  margin-bottom: 36px;
+}
+.vehicles {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.advantages {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 150px;
+  /* width: 1057px; */
+}
+.advantages li {
+  width: 700px;
+}
+.advantage {
+  padding-right: 40px;
+}
+.advantage img {
+  display: block;
+  padding-left: 25%;
+}
+.advantage h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.advantage p {
+  font-size: 14px;
+}
+/* строительство - это хаос section */
+.chaos {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  padding-bottom: 16px;
+}
+.chaosDesc {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.orderH2 {
+  text-align: center;
+  margin-top: 144px;
+  margin-bottom: 168px;
+}
+.order_leftCol {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.order_leftCol_Desc {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.weHere {
+  margin-top: 28px;
+}
+.colums {
+  display: flex;
+  padding-bottom: 71px;
+}
+
+.whatIsH2 {
+  margin-top: 78px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.whatIsDesc {
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+.whatIsColums {
+  display: flex;
+  margin-top: 28px;
+}
+.whatIsColumsLeftColHeader {
+  padding-top: 95px;
+}
+.whatIsOptimizeBlock {
+  display: flex;
+}
+.whatIsOptimizeBlockH2 {
+  margin-top: 131px;
+}
+.whatIsOptimizeBlock {
+  margin-top: 64px;
+}
+.takeControlBlock {
+  display: flex;
+  margin-top: 64px;
+  padding-bottom: 143px;
+}
+.easyDeliveryH2 {
+  text-align: center;
+  margin-bottom: 21px;
+}
+.easyDeliveryP {
+  text-align: center;
+  padding-bottom: 43px;
+}
+.deliveryPoint {
+  display: flex;
+}
+.shipingLine1,
+.shipingLine2,
+.shipingLine3 {
+  display: flex;
+}
+
+/* готовы оптимзировать? */
+
+.readyToOptimizeBlockDivv {
+  background: #ffd042;
+  padding-bottom: 130px;
+}
+.readyToOptimizeHeader {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.readyToOptimizeHeader {
+  /* color: #72787d; */
+  padding-top: 117px;
+  color: #000;
+}
+
+.reliability {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.thanksTo {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+.readyToOptimizeButtons {
+  padding-left: 35%;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.readyToOptimizeButtons a {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.readyToOptimizePoints {
+  display: flex;
+}
+.readyToOptimizePoints li {
+  margin: 0 auto;
+}
+.readyToOptimizeButtons a:hover {
+  color: #000000;
+  background: #fff;
+}
+
+.readyToOptimizePoints li {
+  list-style: none;
+  text-align: center;
+}
+.readyToOptimizePoints li h4 {
+  font-size: 18px;
+}
+.readyToOptimizeBlockUlDesc {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.readyToOptimizeBlockUlDesc li {
+  width: 330px;
+  text-align: center;
+  padding-left: 30px;
+}
+.readyToOptimizeBlockUlDesc li:last-child p {
+  padding-left: 40px;
+  margin-right: 0px;
+}
+.reliable {
+  display: flex;
+  margin-top: 62px;
+  background: #f6f8f9;
+  padding: 49px 26px 66px 42px;
+  margin-bottom: 144px;
+}
+.reliable h4 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 66px;
+}
+.reliable img {
+  padding-left: 42px;
+  padding-right: 26px;
+}
+.reliable a {
+  text-decoration: none;
+  color: #212b31;
+  padding: 13px 25px;
+  background-color: #fff;
+}
+
+.madeToBuildSection {
+  background-color: #212b31;
+  color: #fff;
+  padding-bottom: 118px;x`
+}
+.leftSide{
+  padding-left: 192px;
+}
+.madeToBuildHeader {
+  padding-top: 143px;
+  margin-bottom: 50px;
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.sides {
+  display: flex;
+}
+.madeToBuildUl li h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.madeToBuildUl li p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.graphImage {
+  padding-top: 144px;
+}
+
+.madeToBuildButtons {
+  margin-top: 50px;
+  margin-bottom: 127px;
+}
+.madeToBuildCallUs {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 13px 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.madeToBuildCallUs:hover {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 13px 25px;
+  background-color: white;
+  color: #000;
+}
+
+.madeToBuildDemoOrder {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 13px 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.madeToBuildDemoOrder:hover {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 13px 25px;
+  background-color: white;
+  color: #000;
+}
+.madeToBuildUl {
+  /* display: flex; */
+  /* list-style: none; */
+  text-align-last: left;
+}
+.madeToBuildUl2 {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+.madeToBuildUl2 li h4 {
+  color: #fff;
+  padding-top: 10px;
+}
+.madeToBuildUl2 li p {
+  color: #fff;
+  padding-top: 10px;
+}
+.madeToBuildUl li img {
+  padding-bottom: 20px;
+  padding-left: 40%;
+}
+.madeToBuildUl li h4 {
+  /* text-align: center; */
+}
+.madeToBuildUl li p {
+  text-align: left;
+}
+
+.howToWorkWithUsLeftSideHeader {
+  padding-top: 140px;
+}
+.howToWorkWithUsLeftSideP {
+  padding-bottom: 60px;
+}
+.howToWorkWithUsBlock {
+  display: flex;
+}
+.howToWorkWithUsRightSide {
+  margin-left: 74px;
+  margin-top: 140px;
+}
+.toDoListItem {
+  display: flex;
+}
+.toDoListItemLeft {
+  margin-right: 32px;
+}
+
+.howToWorkWithUsdemoOrder {
+  padding: 13px 25px;
+  border: 1px solid #327e91;
+  margin-right: 41px;
+  text-decoration: none;
+  color: #000;
+}
+.howToWorkWithUsh1More {
+  padding: 13px 25px;
+  border: 1px solid #327e91;
+  text-decoration: none;
+  color: #000;
+}
+.howToWorkWithUsdemoOrder:hover {
+  background: #212b31;
+  color: #fff;
+  text-decoration: none;
+}
+.howToWorkWithUsh1More:hover {
+  background: #212b31;
+  color: #fff;
+  text-decoration: none;
+}
+.howToWorkWithUsButtons {
+  padding-top: 30px;
+  padding-bottom: 96px;
+}
+
+.whyToChoseUsRightSide {
+  /* background-image: url(/img/whyChoseUsBkg.jpg); */
+}
+.whyToChoseUsHeader {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.whyToChoseUsDesc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.leftListItem {
+  display: flex;
+}
+.leftListItemImg img {
+  padding-right: 10px;
+}
+.leftListItems {
+  padding-top: 55px;
+}
+.leftListItem {
+  padding-bottom: 30px;
+}
+
+.whyToChoseUsRightSide {
+  padding-right: 78px;
+}
+
+.whyToChoseRightSideBlock {
+  margin: 55px 98px 100px 87px;
+  background-color: #f6f8f9;
+  padding-bottom: 10px;
+}
+.whyToChoseUsRightSide img {
+  padding-top: 55px;
+}
+.whyToChoseUsRightSideHeader {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 60px;
+  padding: 60px 92px 28px 50px;
+}
+.human {
+  display: flex;
+  padding-left: 50px;
+}
+.human img {
+  padding-right: 10px;
+  padding-top: 0;
+}
+.sliders {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.awardsImg {
+  padding-left: 25%;
+  padding-bottom: 100px;
+}
+.footer {
+  padding-top: 130px;
+}
+.footerLine {
+  display: flex;
+}
+.footer ul {
+  list-style: none;
+  align-items: center;
+}
+.footer ul li {
+  padding-right: 100px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer ul li:first-child {
+  padding-top: 5px;
+}
+.confidental {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  padding: 50px 192px 10px 192px;
+}
+.footerLine {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.footerLine li {
+  padding: 0;
+}
+.stroyControl li {
+  color: #72787d;
+  font-size: 15px;
+  line-height: 24px;
+}
+.ourProduct li {
+  padding: 0;
+  color: #72787d;
+  font-size: 15px;
+  line-height: 24px;
+}
+.footerLineService li {
+  padding: 0;
+  text-align: left;
+  color: #72787d;
+  font-size: 15px;
+  line-height: 24px;
+}
+.about li {
+  padding: 0;
+  color: #72787d;
+  font-size: 15px;
+  line-height: 24px;
+}
+.footerLine li ul {
+  padding: 0;
+}
