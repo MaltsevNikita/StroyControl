@@ -98,10 +98,10 @@ p {
   display: flex;
   align-items: center;
   padding-bottom: 150px;
-  /* width: 1057px; */
+  /* max-max-width: 1057px; */
 }
 .advantages li {
-  width: 700px;
+  max-max-width: 700px;
 }
 .advantage {
   padding-right: 40px;
@@ -243,7 +243,7 @@ p {
   padding-bottom: 30px;
   margin: 0 auto;
   text-align: center;
-  width: 800px;
+  max-max-width: 800px;
 }
 .readyToOptimizeButtons {
   padding-left: 35%;
@@ -283,7 +283,7 @@ p {
   padding: 0;
 }
 .readyToOptimizeBlockUlDesc li {
-  width: 330px;
+  max-max-width: 330px;
   text-align: center;
   padding-left: 30px;
 }
